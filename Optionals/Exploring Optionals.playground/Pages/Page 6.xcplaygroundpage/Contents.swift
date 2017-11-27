@@ -1,4 +1,4 @@
-//: [Previous](@previous)
+//: [Previous](@previous)
 /*:
  
  ## Unwrapping optionals
@@ -25,6 +25,13 @@
  
  */
 // Type the code below this line
+var dayOfWeek : String = "Monday"
+if dayOfWeek != nil {
+    let day = dayOfWeek!
+    print("The day is \(day)")
+} else {
+    print("no day was provided")
+}
 
 
 /*:
